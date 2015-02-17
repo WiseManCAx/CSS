@@ -1,0 +1,30 @@
+/* -------------------------------------------------- */
+/* --- IE 6 FIXED POSITION HACK --------------------- */
+/* -------------------------------------------------- */
+ 
+html,
+body,
+#Container-Playlist {
+_height: 100% ;
+_overflow: hidden ;
+_width: 100% ;
+}
+ 
+#Container-Playlist {
+_overflow-y: scroll ;
+_overflow-x: hidden ;
+_position: relative ;
+}
+ 
+/* To make up for scroll-bar. */
+#Container-Playlist-content {
+_bottom: -1px ;
+_position: absolute ;
+_right: 16px ;
+}
+ 
+/* To fix IE6 display bugs. */
+#menu-x-y-z a {
+_display: inline-block ;
+_width: 99% ;
+}  
