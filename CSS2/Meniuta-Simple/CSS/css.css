@@ -1,0 +1,56 @@
+/* Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /*  */
+}
+
+body{
+	padding:30px 0 0 0; margin:0;
+	background:#908f8f;
+}
+.clear{
+	clear:both; height:0px; font-size:0px; line-height:0px;
+}
+#nav{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#nav li{
+	padding-right:4px;
+	float:left;
+}
+
+#nav a{
+	padding-left:9px;
+	display:block;
+	float:left;
+	height:21px;
+	color:#ff0000;
+	float:left;
+	font:bold 12px Tahoma;
+	text-decoration:none;
+	background: url(../Img/left.png) no-repeat;
+}
+
+#nav a strong{
+	padding:3px 9px 0 0;
+	height:19px;
+	float:left;
+	display:block;
+	cursor:pointer;
+	background: url(../Img/right.png) no-repeat right top;
+}
+
+#nav a:hover{
+	color:#ffffff;
+	background: url(../Img/left_green.png) no-repeat;
+}
+
+#nav a:hover strong{
+	background: url(../Img/right_green.png) no-repeat right top;
+}
