@@ -8,49 +8,49 @@
 }
 
 body{
-	padding:30px 0 0 0; margin:0;
-	background:#908f8f;
+    padding:30px 0 0 0; margin:0;
+    background:#908f8f;
 }
 .clear{
-	clear:both; height:0px; font-size:0px; line-height:0px;
+    clear:both; height:0px; font-size:0px; line-height:0px;
 }
 #nav{
-	margin:0;
-	padding:0;
-	list-style-type:none;
+    margin:0;
+    padding:0;
+    list-style-type:none;
 }
 
 #nav li{
-	padding-right:4px;
-	float:left;
+    padding-right:4px;
+    float:left;
 }
 
 #nav a{
-	padding-left:9px;
-	display:block;
-	float:left;
-	height:21px;
-	color:#ff0000;
-	float:left;
-	font:bold 12px Tahoma;
-	text-decoration:none;
-	background: url(../Img/left.png) no-repeat;
+    padding-left:9px;
+    display:block;
+    float:left;
+    height:21px;
+    color:#ff0000;
+    float:left;
+    font:bold 12px Tahoma;
+    text-decoration:none;
+    background: url(../Img/left.png) no-repeat;
 }
 
 #nav a strong{
-	padding:3px 9px 0 0;
-	height:19px;
-	float:left;
-	display:block;
-	cursor:pointer;
-	background: url(../Img/right.png) no-repeat right top;
+    padding:3px 9px 0 0;
+    height:19px;
+    float:left;
+    display:block;
+    cursor:pointer;
+    background: url(../Img/right.png) no-repeat right top;
 }
 
 #nav a:hover{
-	color:#ffffff;
-	background: url(../Img/left_green.png) no-repeat;
+    color:#ffffff;
+    background: url(../Img/left_green.png) no-repeat;
 }
 
 #nav a:hover strong{
-	background: url(../Img/right_green.png) no-repeat right top;
+    background: url(../Img/right_green.png) no-repeat right top;
 }
